@@ -2,6 +2,8 @@ $color-primario: orangered;
 $color-secundario: rgb(12, 12, 12);
 $color-terciario: navy;
 
+@import "components.scss";
+
 
 h1 {
     color: $color-primario;
@@ -14,3 +16,5 @@ h2 {
 p {
     color: $color-terciario;
 }
+
+
